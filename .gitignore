@@ -1,6 +1,58 @@
-node_modules
-build
+# Ignore node_modules directory
+node_modules/
+
+# Ignore npm debugging logs
 npm-debug.log
-.nyc
-.env
+
+# Ignore any local configuration files
+config.js
+
+# Ignore environment-specific configuration files
+config/*.js
+
+# Ignore log files
+logs/
+
+# Ignore user-specific files
+.npmrc
+.npm
+
+# Ignore build artifacts and dependencies
+dist/
+build/
 .DS_Store
+yarn-error.log
+
+# Ignore IDE or text editor specific files
+.vscode/
+.idea/
+
+# Ignore test or temporary files
+*.swp
+*.swo
+*.swn
+*.log
+
+# Ignore OS-generated files
+.DS_Store
+
+# Ignore runtime data
+pids/
+*.pid
+
+# Ignore local database files
+*.sqlite
+
+# Ignore secrets and sensitive information (add your own files here)
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.staging
+.env.production
+.env.local
+
+# Ignore package-lock files
+package-lock.json
+yarn.lock
